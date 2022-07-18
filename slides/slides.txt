@@ -1,0 +1,52 @@
+% C++20 Coroutines and Boost ASIO (1.77+)
+% Bharat Karia
+% July 18, 2022
+
+# C++20 Features
+
+>- Concepts
+>- Modules
+>- Ranges
+>- Coroutines
+
+# Coroutines
+
+![Coroutine](images/coroutines.png)
+
+# Coroutines - Definition
+
+>- Coroutines are generalized functions that can pause and resume their execution while keeping their state
+
+# Coroutines - New C++ keywords
+
+>- co_await
+>- co_yield
+>- co_return
+
+# Coroutines - C++20
+
+* With C++20, we don’t get concrete coroutines,but a framework for implementing coroutines
+
+# Boost ASIO (1.77+)
+
+>- Support for C++20 Coroutines is provided via the awaitable<> class template
+>- These facilities allow programs to implement asynchronous logic in a synchronous manner
+>- The logical operators || and && have been overloaded for awaitable<>, to allow coroutines to be trivially awaited in parallel.
+
+# Sample App - TCPProxy
+
+![TCP Proxy](images/tcp-proxy.png)
+
+
+# Implementation
+
+>- Traditional ASIO Callbacks
+>- Python Asyncio
+>- ASIO Coroutines with C++20
+
+# Conclusion
+
+## Thank You!
+
+* Questions
+* Feedback

@@ -1,0 +1,5 @@
+/home/ubuntu/testprogs/cpp20coro/cpp/build/CMakeFiles/tcpproxy-c20.dir
+/home/ubuntu/testprogs/cpp20coro/cpp/build/CMakeFiles/tcpproxy-cb.dir
+/home/ubuntu/testprogs/cpp20coro/cpp/build/CMakeFiles/async_resume.dir
+/home/ubuntu/testprogs/cpp20coro/cpp/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/testprogs/cpp20coro/cpp/build/CMakeFiles/rebuild_cache.dir

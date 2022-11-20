@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-set(EXTERNAL_ROOT "/home/ubuntu/build/exchange/release/externalprojects/")
-set(Boost_ROOT ${EXTERNAL_ROOT}/boost)
+set(EXTERNAL_ROOT "/usr/local/")
+set(Boost_ROOT ${EXTERNAL_ROOT}/include/boost)
 set(Boost_INCLUDE_DIRS ${Boost_ROOT}/include)
 set(Boost_LIBRARY_DIRS ${Boost_ROOT}/lib/)
 
@@ -25,6 +25,11 @@ add_executable(tcpproxy-cb
     tcpproxy-cb.cpp
 )
 target_link_libraries(tcpproxy-cb ${CMAKE_THREAD_LIBS_INIT})
+
+add_executable(async_resume
+    async_resume.cpp
+)
+target_link_libraries(async_resume ${CMAKE_THREAD_LIBS_INIT})
 
 message( STATUS "Boost_INCLUDE_DIRS: " ${Boost_INCLUDE_DIRS} )
 message( STATUS "Boost_LIBRARY_DIRS: " ${Boost_LIBRARY_DIRS} )

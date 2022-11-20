@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG -rdynamic "CMakeFiles/tcpproxy-c20.dir/tcpproxy-c20.cpp.o" -o tcpproxy-c20 

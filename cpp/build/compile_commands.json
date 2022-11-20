@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ubuntu/testprogs/cpp20coro/cpp/build",
+  "command": "/usr/bin/c++ -DBOOST_STACKTRACE_USE_NOOP -I/usr/local/include/boost/include -O2 -g -DNDEBUG -std=gnu++20 -o CMakeFiles/tcpproxy-c20.dir/tcpproxy-c20.cpp.o -c /home/ubuntu/testprogs/cpp20coro/cpp/tcpproxy-c20.cpp",
+  "file": "/home/ubuntu/testprogs/cpp20coro/cpp/tcpproxy-c20.cpp"
+},
+{
+  "directory": "/home/ubuntu/testprogs/cpp20coro/cpp/build",
+  "command": "/usr/bin/c++ -DBOOST_STACKTRACE_USE_NOOP -I/usr/local/include/boost/include -O2 -g -DNDEBUG -std=gnu++20 -o CMakeFiles/tcpproxy-cb.dir/tcpproxy-cb.cpp.o -c /home/ubuntu/testprogs/cpp20coro/cpp/tcpproxy-cb.cpp",
+  "file": "/home/ubuntu/testprogs/cpp20coro/cpp/tcpproxy-cb.cpp"
+},
+{
+  "directory": "/home/ubuntu/testprogs/cpp20coro/cpp/build",
+  "command": "/usr/bin/c++ -DBOOST_STACKTRACE_USE_NOOP -I/usr/local/include/boost/include -O2 -g -DNDEBUG -std=gnu++20 -o CMakeFiles/async_resume.dir/async_resume.cpp.o -c /home/ubuntu/testprogs/cpp20coro/cpp/async_resume.cpp",
+  "file": "/home/ubuntu/testprogs/cpp20coro/cpp/async_resume.cpp"
+}
+]
